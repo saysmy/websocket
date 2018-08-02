@@ -1,5 +1,5 @@
 # websocket
-websocket+nodejs 实践
+nginx + websocket + nodejs 实践
 
 ## 使用nginx代理到node服务
 
