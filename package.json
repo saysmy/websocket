@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/saysmy/websocket.git"
+    "url": "https://github.com/saysmy/websocket.git"
   },
   "author": "smy",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/saysmy/websocket/issues"
+    "url": "https://github.com/saysmy/websocket/issues"
   },
-  "homepage": "https://gitlab.com/saysmy/websocket#README",
+  "homepage": "https://github.com/saysmy/websocket#README",
   "dependencies": {
     "ws": "^6.0.0"
   }
