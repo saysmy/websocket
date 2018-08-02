@@ -1,0 +1,22 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "webspcket server\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[o",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/saysmy/websocket.git"
+  },
+  "author": "smy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/saysmy/websocket/issues"
+  },
+  "homepage": "https://gitlab.com/saysmy/websocket#README",
+  "dependencies": {
+    "ws": "^6.0.0"
+  }
+}

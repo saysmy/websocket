@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>websocket demo</title>
+</head>
+<body>
+	<input type="text" name="text" id="msg">
+	<button id="btn">send</button>
+	<div id="msgWrap"></div>
+	<script type="text/javascript">
+		var ws = new WebSocket('ws://127.0.0.1:8082');
+		ws.onopen = function(e){
+			console.log('connect to server opened.')
+		}
+		ws.onmessage = function(e){
+			addList(e.data)
+		}
+
+		function sendMsg(msg){
+			ws.send(msg)
+		}
+
+		function addList(msg){
+			var wrap = document.getElementById('msgWrap');
+			var p = document.createElement('p');
+			p.innerHTML = msg
+			wrap.append(p)
+		}
+
+		document.getElementById('btn').onclick = function(){
+			var msg = document.getElementById('msg').value
+			sendMsg(msg)
+		}
+	</script>
+</body>
+</html>
